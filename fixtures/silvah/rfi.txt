@@ -1,0 +1,80 @@
+United States       Forest          Washington Office                   Procurement and Property
+Department of       Service                                             Services National Procurement
+Agriculture                                                             Operations IT Contract Branch
+                                                                        333 Broadway Blvd SE
+                                                                        Albuquerque, NM 87102
+
+Request for Information (RFI)
+Title: Market Research for SILVAH Software Coding
+Agency: USDA Forest Service
+Date Issued: October 22, 2026
+Response Due Date: November 11, 2026
+
+Purpose
+This RFI is for market research only and does not obligate the Government to issue a
+solicitation or award a contract. Respondents will not be compensated for submissions, and
+participation is voluntary.
+
+The United States Department of Agriculture (USDA) Forest Service (FS) is conducting market
+research to identify capable sources to repair SILVAH version 8 in C++ code to then work with
+scientific staff to produce a new SILVAH version 9 coning some features from SILVAH 7 and 8.
+This RFI is issued solely for information and planning purposes and does not constitute a
+solicitation or commitment by the Government.
+
+Background
+
+SILVAH is a computer tool for making silvicultural decisions in hardwood stands of the mid-
+Atlantic and Central Appalachian regions. SILVAH recommends appropriate treatments based
+upon user objectives and overstory, understory, and site data provided by the user. SILVAH also
+contains a wildlife attributes report, forest stand growth simulator, provides the ability to test
+alternative cuts, enables development of a forest-wide inventory database, and facilitates other
+forest management planning functions.
+
+SILVAH is the computerized implementation of a systematic approach to silviculture, in which
+current conditions are identified through a systematic inventory of overstory and understory. These
+conditions are evaluated using an objective set of research-based standards and the constraints and
+objectives of the land-manager. Then a prescription is recommended to move the stand closer to
+the manager’s objectives.
+
+Requested Information
+
+Interested vendors are invited to respond to the following requests:
+    1. Describe your company’s relevant experience with forestry applications and abilities to
+        review, rewrite, and update existing C++ code.
+
+   2. Provide estimated staffing levels, including proposed labor categories and relevant
+      certifications.
+
+   3. Describe your Service Level Agreement (SLA) capabilities, including average response and
+      resolution times for previous coding projects.
+
+
+
+                               Caring for the Land and Serving People                 Printed on Recycled Paper
+   4. Identify any previous or existing contract awards under which similar work is performed.
+
+   5. State whether your organization qualifies as a small business, and under what categories
+      (e.g., 8(a), SDVOSB, HUBZone).
+
+Response Format
+Vendors should submit a response to include:
+   • Company name, address, and UEI
+
+   •   Point of contact (name, phone, email)
+
+   •   Capability statement
+   •   Responses to RFI requests
+
+   •   Optional feedback on background and requested information
+
+Submission Instructions
+
+Questions regarding this RFI are due by 3:00pm EST on November 4th, 2026. The
+Government asks that respondents submit responses to the Contracting Officer no later than
+3:00 pm EST on November 11th, 2026. Responses should be submitted to the following point
+of contact:
+
+Email responses to:
+Brandon.Newland@usda.gov
+Subject line: RFI-2026-001 Response – [Your Company Name]
+
