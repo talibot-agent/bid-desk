@@ -7,13 +7,13 @@
 - [x] README/SPEC/PLAN, secrets scan, push to talibot-agent/bid-desk.
 
 ## Phase 2: Real product flow (Oct 28 – Nov 2; after S20 Airwallex test)
-- [ ] Persist pipeline + profile in DB (drizzle/PGlite); `save-opportunity`, `update-profile` actions. Verify: tests + UI reflects agent writes.
-- [ ] Generic notice ingest: fetch SAM attachments via public resources endpoint, `pdftotext`-free parsing (pdfjs). Verify: 3 live notices parsed.
-- [ ] Agent skill `skills/bid-desk.md` so chat runs search → score → draft; free/local LLM (Ollama small model or Builder gateway if free). Verify: chat transcript.
+- [x] Persist pipeline + profile in DB (drizzle/PGlite, migration plugin); `save-opportunity`, `list-pipeline`, `update-opportunity`, `update-profile` actions; `track-deadlines` reads DB. Verify: 5 PGlite tests + `pnpm action` writes (Nov 2).
+- [x] Generic notice ingest: SAM public resources endpoint, PDF (unpdf/pdfjs) + DOCX (fflate) text extraction, generic question/requirement/Q&A-date parse. Verify: 5 tests incl. real SILVAH PDF; `npx tsx scripts/verify-live-ingest.ts software 3` parsed 3 live notices (Nov 2).
+- [x] Agent skill `.agents/skills/bid-desk/SKILL.md` (search → save/score/draft → pipeline → deadlines → profile), rule-based; test checks it only names real actions. Pending: live chat transcript (needs a model; no paid key).
 - [ ] Optional LLM polish of drafts behind a flag; deterministic fallback.
 
 ## Phase 3: Design + demo (Nov 3 – Nov 7)
-- [ ] Kanban pipeline UI (New / Scoring / Drafting / Submitted), deadline calendar, export to Markdown/PDF.
+- [~] Kanban pipeline + deadline calendar: logic + stage-transition rules + basic /bids board done (Nov 2). Remaining: drag/move UI polish, export to Markdown/PDF.
 - [ ] Attend Nov 3/5 office hours (optional) for framework questions.
 - [ ] Deploy (Netlify free) with demo data; Builder account for Clips under Tali identity via account-registry.
 - [ ] Record public Clip (2-3 min): SILVAH in → packet out, agent + UI sharing actions.
