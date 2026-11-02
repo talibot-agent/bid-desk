@@ -6,6 +6,7 @@ export type Stage = (typeof STAGES)[number];
 export interface PipelineItem { noticeId: string; solicitationNumber: string; title: string; agency: string; stage: Stage; fitScore: number | null; verdict: string | null; responseDeadline: string; questionsDeadline?: string | null; notes?: string }
 
 const NEXT: Record<Stage, Stage[]> = { new: ["scoring", "passed"], scoring: ["drafting", "passed"], drafting: ["submitted", "passed"], submitted: ["won", "lost"], won: [], lost: [], passed: ["new"] };
+export function nextStages(from: Stage): Stage[] { return NEXT[from]; }
 export function canMove(from: Stage, to: Stage) { return from === to || NEXT[from].includes(to); }
 
 /** Kanban columns in fixed order; inside a column, soonest response deadline first. */
